@@ -65,28 +65,36 @@ Upon stopping, the algorithm outputs the best-evolved image.
 The implemented algorithm successfully demonstrates the core concepts of a genetic algorithm: population management, fitness-based selection, and the application of genetic operators. The evolution of the image over generations visually confirms the algorithm's convergence towards the target.
 
 Example of the original (target) 16x16 image:
+
 ![bird_orig256](images/bird_orig256.png)
 
 Example of an evolved image with a fitness score of approximately 30,000:
+
 ![bird_30f](images/bird_30f.png)
 
 Example of an evolved image with a fitness score of approximately 10,000:
+
 ![bird_10f](images/bird_10f.png)
 
 Example of an evolved image with a fitness score of approximately 5,000:
+
 ![bird_5f](images/bird_5f.png)
 
 
 Example of the original (target) 256x256 image:
+
 ![heart_orig](images/heart_orig.png)
 
 Example of an evolved image with a fitness score of approximately 30,000:
+
 ![heart_30f](images/heart_30f.png)
 
 Example of an evolved image with a fitness score of approximately 10,000:
+
 ![heart_10f](images/heart_10f.png)
 
 Example of an evolved image with a fitness score of approximately 5,000:
+
 ![heart_5f](images/heart_5f.png)
 
 
