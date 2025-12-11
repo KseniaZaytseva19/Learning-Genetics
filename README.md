@@ -65,16 +65,31 @@ Upon stopping, the algorithm outputs the best-evolved image.
 The implemented algorithm successfully demonstrates the core concepts of a genetic algorithm: population management, fitness-based selection, and the application of genetic operators. The evolution of the image over generations visually confirms the algorithm's convergence towards the target.
 
 Example of the original (target) 16x16 image:
-`[Placeholder for target_image.jpg]`
+![bird_orig256](images/bird_orig256.png)
 
-Example of an evolved image with a fitness score of approximately 15,000:
-`[Placeholder for evolved_15000.jpg]`
+Example of an evolved image with a fitness score of approximately 30,000:
+![bird_30f](images/bird_30f.png)
 
 Example of an evolved image with a fitness score of approximately 10,000:
-`[Placeholder for evolved_10000.jpg]`
+![bird_10f](images/bird_10f.png)
 
 Example of an evolved image with a fitness score of approximately 5,000:
-`[Placeholder for evolved_5000.jpg]`
+![bird_5f](images/bird_5f.png)
+
+
+Example of the original (target) 256x256 image:
+![heart_orig](images/heart_orig.png)
+
+Example of an evolved image with a fitness score of approximately 30,000:
+![heart_30f](images/heart_30f.png)
+
+Example of an evolved image with a fitness score of approximately 10,000:
+![heart_10f](images/heart_10f.png)
+
+Example of an evolved image with a fitness score of approximately 5,000:
+![heart_5f](images/heart_5f.png)
+
+
 
 ## 12. Discussion
 
@@ -92,6 +107,7 @@ Example of an evolved image with a fitness score of approximately 5,000:
 This project constitutes a complete and functional implementation of a genetic algorithm applied to an image approximation problem. It successfully translates the theoretical steps of a GA—initialization, fitness evaluation, selection, crossover, and mutation—into a concrete Python program. The work demonstrates not only an understanding of evolutionary algorithms but also practical software development skills, including problem decomposition, algorithm design, and the use of external libraries (PIL). The project serves as a solid foundation for understanding heuristic search methods and can be extended in numerous computationally interesting and artistically creative ways.
 
 ## 14. References 
-
+* Painterly Spell Icons part 1 by J. W. Bjerk from [opengameart.org](https://opengameart.org/content/painterly-spell-icons-part-1)
+* Winter Birds by Refuzzle from [opengameart.org](https://opengameart.org/content/winter-birds)
 *   Mitchell, M. (1998). *An Introduction to Genetic Algorithms*. MIT Press.
 *   Pillow (PIL Fork) Documentation: [https://pillow.readthedocs.io/](https://pillow.readthedocs.io/)
